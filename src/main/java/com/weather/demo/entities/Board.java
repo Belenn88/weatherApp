@@ -1,4 +1,4 @@
-package entities;
+package com.weather.demo.entities;
 
 import java.util.ArrayList;
 import java.util.List;

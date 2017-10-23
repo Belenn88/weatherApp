@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.weather.demo.entities.Board;
+import com.weather.demo.entities.Location;
+import com.weather.demo.entities.Weather;
 import com.weather.demo.services.WeatherService;
-
-import entities.Board;
-import entities.Location;
-import entities.Weather;
 
 @RestController
 public class WeatherController {

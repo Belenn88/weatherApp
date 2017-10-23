@@ -12,11 +12,10 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.weather.demo.entities.Board;
+import com.weather.demo.entities.Location;
+import com.weather.demo.entities.Weather;
 import com.weather.demo.services.WeatherService;
-
-import entities.Board;
-import entities.Location;
-import entities.Weather;
 
 @Service("WeatherService")
 public class WeatherServiceImpl implements WeatherService {

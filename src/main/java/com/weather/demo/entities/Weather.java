@@ -1,4 +1,4 @@
-package entities;
+package com.weather.demo.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

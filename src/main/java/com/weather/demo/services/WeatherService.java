@@ -1,8 +1,8 @@
 package com.weather.demo.services;
 
-import entities.Board;
-import entities.Location;
-import entities.Weather;
+import com.weather.demo.entities.Board;
+import com.weather.demo.entities.Location;
+import com.weather.demo.entities.Weather;
 
 
 public interface WeatherService {
